@@ -31,7 +31,8 @@
         android:layout_marginBottom="16dp"
         android:text="Price"
         android:textColor="@android:color/black"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:textAllCaps="true"/>
 
     <TextView
         android:id="@+id/price_text_view"
