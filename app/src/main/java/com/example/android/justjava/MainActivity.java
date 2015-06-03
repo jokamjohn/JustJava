@@ -24,9 +24,24 @@ public class MainActivity extends ActionBarActivity {
     public void submitOrder(View view) {
         int quantity = 2;
         display(quantity);
-        displayPrice(quantity*5);
+        displayPrice(quantity * 5);
     }
 
+    /*
+    This method increments the cups of coffee
+     */
+    public void increment(View view) {
+        int quantity = 3;
+        display(quantity);
+    }
+
+    /*
+    This method decrements the cups of coffee
+     */
+    public void decrement(View view) {
+        int quantity = 1;
+        display(quantity);
+    }
     /**
      * This method displays the given quantity value on the screen.
      */
